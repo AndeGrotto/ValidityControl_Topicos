@@ -320,8 +320,8 @@ class ComposerStaticInitfc6f0e2b8fb4914087085804f660256f
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -503,7 +503,13 @@ class ComposerStaticInitfc6f0e2b8fb4914087085804f660256f
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\ClientesController' => __DIR__ . '/../..' . '/app/Http/Controllers/ClientesController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\ItensPedidoController' => __DIR__ . '/../..' . '/app/Http/Controllers/ItensPedidoController.php',
+        'App\\Http\\Controllers\\LotesController' => __DIR__ . '/../..' . '/app/Http/Controllers/LotesController.php',
+        'App\\Http\\Controllers\\PedidosController' => __DIR__ . '/../..' . '/app/Http/Controllers/PedidosController.php',
+        'App\\Http\\Controllers\\ProdutosController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProdutosController.php',
+        'App\\Http\\Controllers\\UsuariosController' => __DIR__ . '/../..' . '/app/Http/Controllers/UsuariosController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -513,7 +519,13 @@ class ComposerStaticInitfc6f0e2b8fb4914087085804f660256f
         'App\\Http\\Middleware\\TrustHosts' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustHosts.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Models\\Cliente' => __DIR__ . '/../..' . '/app/Models/Cliente.php',
+        'App\\Models\\ItensPedido' => __DIR__ . '/../..' . '/app/Models/ItensPedido.php',
+        'App\\Models\\Lote' => __DIR__ . '/../..' . '/app/Models/Lote.php',
+        'App\\Models\\Pedido' => __DIR__ . '/../..' . '/app/Models/Pedido.php',
+        'App\\Models\\Produto' => __DIR__ . '/../..' . '/app/Models/Produto.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
+        'App\\Models\\Usuario' => __DIR__ . '/../..' . '/app/Models/Usuario.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
